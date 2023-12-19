@@ -1,0 +1,8 @@
+version: '3'
+services:
+  bp-reactjs-boilerplate:
+    container_name: frontend
+    build:
+      context: .
+    ports:
+      - "3000:80"
